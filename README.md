@@ -19,3 +19,5 @@ INDEX CREATION ON REDISHASH
 FT.CREATE idx:movie ON hash PREFIX 1 "movie:" SCHEMA title TEXT SORTABLE release_year NUMERIC SORTABLE rating NUMERIC SORTABLE genre TAG SORTABLE
 
 "FT.SEARCH" "com.dcb.redissearch.document.domain.PostIdx" "(( @content:redi) @tags:{json})"
+
+https://redis.io/docs/stack/search/
