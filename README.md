@@ -25,3 +25,10 @@ https://redis.io/docs/stack/get-started/tutorials/stack-spring/
 ## "FT.SEARCH" "com.dcb.redissearch.document.domain.PostIdx" "(( @content:redi) @tags:{json})"
 
 ## https://redis.io/docs/stack/search/
+
+### https://github.com/redis/redis-om-spring
+
+### https://developer.redis.com/howtos/moviesdatabase/create/
+### https://redis.io/docs/stack/get-started/tutorials/stack-spring/
+
+### FT.CREATE" "com.dcb.redissearch.document.domain.PostIdx" "ON" "JSON" "PREFIX" "1" "test" "SCHEMA" "$.title" "AS" "title" "TEXT" "SORTABLE" "$.content" "AS" "content" "TEXT" "$.tags[*]" "AS" "tags" "TAG" "SEPARATOR" "," "$.mostViewed" "AS" "mostViewed" "NUMERIC"

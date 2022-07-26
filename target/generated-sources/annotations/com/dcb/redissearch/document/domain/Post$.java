@@ -9,48 +9,41 @@ import java.lang.NoSuchFieldException;
 import java.lang.SecurityException;
 import java.lang.String;
 import java.lang.reflect.Field;
-import java.util.Date;
 import java.util.Set;
 
 public final class Post$ {
-  public static Field id;
-
-  public static Field url;
+  public static Field mostViewed;
 
   public static Field content;
 
   public static Field tags;
 
-  public static Field mostViewed;
+  public static Field id;
 
-  public static Field dateCreated;
+  public static Field title;
 
-  public static NonIndexedTextField<Post, String> ID;
-
-  public static NonIndexedTextField<Post, String> URL;
+  public static NumericField<Post, Integer> MOST_VIEWED;
 
   public static TextField<Post, String> CONTENT;
 
   public static TagField<Post, Set<String>> TAGS;
 
-  public static NumericField<Post, Integer> MOST_VIEWED;
+  public static NonIndexedTextField<Post, String> ID;
 
-  public static NumericField<Post, Date> DATE_CREATED;
+  public static NonIndexedTextField<Post, String> TITLE;
 
   static {
     try {
-      id = Post.class.getDeclaredField("id");
-      url = Post.class.getDeclaredField("url");
+      mostViewed = Post.class.getDeclaredField("mostViewed");
       content = Post.class.getDeclaredField("content");
       tags = Post.class.getDeclaredField("tags");
-      mostViewed = Post.class.getDeclaredField("mostViewed");
-      dateCreated = Post.class.getDeclaredField("dateCreated");
-      ID = new NonIndexedTextField<Post, String>(id,false);
-      URL = new NonIndexedTextField<Post, String>(url,false);
+      id = Post.class.getDeclaredField("id");
+      title = Post.class.getDeclaredField("title");
+      MOST_VIEWED = new NumericField<Post, Integer>(mostViewed,true);
       CONTENT = new TextField<Post, String>(content,true);
       TAGS = new TagField<Post, Set<String>>(tags,true);
-      MOST_VIEWED = new NumericField<Post, Integer>(mostViewed,true);
-      DATE_CREATED = new NumericField<Post, Date>(dateCreated,true);
+      ID = new NonIndexedTextField<Post, String>(id,false);
+      TITLE = new NonIndexedTextField<Post, String>(title,false);
     } catch(NoSuchFieldException | SecurityException e) {
       System.err.println(e.getMessage());
     }

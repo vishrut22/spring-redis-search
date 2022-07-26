@@ -1,5 +1,6 @@
 package com.dcb.redissearch.controller;
 
+import com.dcb.redissearch.document.domain.Page;
 import com.dcb.redissearch.document.domain.Post;
 import com.dcb.redissearch.service.PostServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 @RestController
@@ -23,8 +25,15 @@ public class SearchController {
     }
 
     @GetMapping("/filter")
-    public List<Post> filter(@RequestParam(name="search") String search , @RequestParam(name="tags") Set<String> tags) {
-        return postService.filter(search,tags);
+    public Page filter(@RequestParam(name="search" , required = false) String search ,
+                       @RequestParam(name="tags" , required = false) Set<String> tags,
+                       @RequestParam(name = "page" , defaultValue = "1") int page) {
+        return postService.filter(search,tags ,page);
+    }
+
+    @GetMapping("/aggregate")
+    public Map<String,String> aggregate() {
+        return postService.aggregate();
     }
 
 }
