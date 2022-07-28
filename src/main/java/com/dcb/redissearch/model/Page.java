@@ -1,5 +1,6 @@
-package com.dcb.redissearch.document.domain;
+package com.dcb.redissearch.model;
 
+import com.dcb.redissearch.document.domain.Post;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

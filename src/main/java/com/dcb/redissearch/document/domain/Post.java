@@ -24,5 +24,5 @@ public class Post {
 
 
     @NonNull
-    private Integer mostViewed;
+    private Integer views;
 }

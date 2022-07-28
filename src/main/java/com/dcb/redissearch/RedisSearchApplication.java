@@ -53,9 +53,10 @@ public class RedisSearchApplication {
 			Arrays.stream(posts).forEach(postRepository::save);
 
 			Schema schema = new Schema()
-					.addField(new Schema.TextField(FieldName.of("$.content").as("content")))
-					.addField(new Schema.TextField(FieldName.of("$.title")))
-					.addField(new Schema.Field(FieldName.of("$.tags[*]").as("tags"), Schema.FieldType.TAG));
+					.addField(new Schema.Field(FieldName.of("$.content").as("content") , Schema.FieldType.TEXT , true, false))
+					.addField(new Schema.TextField(FieldName.of("$.title").as("title")))
+					.addField(new Schema.Field(FieldName.of("$.tags[*]").as("tags"), Schema.FieldType.TAG))
+						.addField(new Schema.Field(FieldName.of("$.views").as("views"), Schema.FieldType.NUMERIC, false , true));
 
 
 			IndexDefinition rule = new IndexDefinition(IndexDefinition.Type.JSON)

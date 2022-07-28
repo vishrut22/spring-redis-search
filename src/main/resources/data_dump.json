@@ -9,7 +9,7 @@
       "american",
       "crime"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 2,
@@ -21,7 +21,7 @@
       "fiction",
       "english"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 3,
@@ -33,7 +33,7 @@
       "history",
       "french"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 4,
@@ -45,7 +45,7 @@
       "english",
       "american"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 5,
@@ -57,7 +57,7 @@
       "mystery",
       "love"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 6,
@@ -69,7 +69,7 @@
       "classic",
       "american"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 7,
@@ -80,7 +80,7 @@
       "magical",
       "crime"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 8,
@@ -91,7 +91,7 @@
       "american",
       "english"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 9,
@@ -103,7 +103,7 @@
       "history",
       "magical"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 10,
@@ -115,7 +115,7 @@
       "magical",
       "history"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 11,
@@ -127,7 +127,7 @@
       "american",
       "history"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 12,
@@ -138,7 +138,7 @@
       "love",
       "english"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 13,
@@ -150,7 +150,7 @@
       "classic",
       "french"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 14,
@@ -162,7 +162,7 @@
       "english",
       "love"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 15,
@@ -174,7 +174,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 16,
@@ -186,7 +186,7 @@
       "french",
       "american"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 17,
@@ -198,7 +198,7 @@
       "magical",
       "english"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 18,
@@ -210,7 +210,7 @@
       "french",
       "love"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 19,
@@ -222,7 +222,7 @@
       "crime",
       "magical"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 20,
@@ -233,7 +233,7 @@
       "french",
       "classic"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 21,
@@ -244,7 +244,7 @@
       "french",
       "american"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 22,
@@ -256,7 +256,7 @@
       "love",
       "history"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 23,
@@ -267,7 +267,7 @@
       "crime",
       "english"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 24,
@@ -279,7 +279,7 @@
       "american",
       "love"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 25,
@@ -291,7 +291,7 @@
       "history",
       "french"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 26,
@@ -303,7 +303,7 @@
       "mystery",
       "crime"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 27,
@@ -315,7 +315,7 @@
       "classic",
       "love"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 28,
@@ -326,7 +326,7 @@
       "crime",
       "love"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 29,
@@ -337,7 +337,7 @@
       "mystery",
       "american"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 30,
@@ -349,7 +349,7 @@
       "love",
       "fiction"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 31,
@@ -361,7 +361,7 @@
       "fiction",
       "magical"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 32,
@@ -373,7 +373,7 @@
       "american",
       "english"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 33,
@@ -385,7 +385,7 @@
       "french",
       "love"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 34,
@@ -397,7 +397,7 @@
       "crime",
       "history"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 35,
@@ -409,7 +409,7 @@
       "american",
       "fiction"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 36,
@@ -420,7 +420,7 @@
       "french",
       "fiction"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 37,
@@ -432,7 +432,7 @@
       "fiction",
       "english"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 38,
@@ -444,7 +444,7 @@
       "mystery",
       "classic"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 39,
@@ -456,7 +456,7 @@
       "magical",
       "american"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 40,
@@ -468,7 +468,7 @@
       "love",
       "crime"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 41,
@@ -480,7 +480,7 @@
       "history",
       "american"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 42,
@@ -492,7 +492,7 @@
       "french",
       "american"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 43,
@@ -504,7 +504,7 @@
       "french",
       "fiction"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 44,
@@ -516,7 +516,7 @@
       "english",
       "classic"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 45,
@@ -527,7 +527,7 @@
       "love",
       "american"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 46,
@@ -539,7 +539,7 @@
       "magical",
       "american"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 47,
@@ -551,7 +551,7 @@
       "french",
       "crime"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 48,
@@ -563,7 +563,7 @@
       "fiction",
       "crime"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 49,
@@ -574,7 +574,7 @@
       "french",
       "classic"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 50,
@@ -586,7 +586,7 @@
       "fiction",
       "love"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 51,
@@ -598,7 +598,7 @@
       "english",
       "american"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 52,
@@ -609,7 +609,7 @@
       "mystery",
       "love"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 53,
@@ -620,7 +620,7 @@
       "magical",
       "american"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 54,
@@ -631,7 +631,7 @@
       "english",
       "american"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 55,
@@ -643,7 +643,7 @@
       "crime",
       "fiction"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 56,
@@ -655,7 +655,7 @@
       "french",
       "history"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 57,
@@ -667,7 +667,7 @@
       "classic",
       "english"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 58,
@@ -679,7 +679,7 @@
       "crime",
       "magical"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 59,
@@ -691,7 +691,7 @@
       "english",
       "history"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 60,
@@ -703,7 +703,7 @@
       "classic",
       "history"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 61,
@@ -715,7 +715,7 @@
       "classic",
       "american"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 62,
@@ -727,7 +727,7 @@
       "mystery",
       "love"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 63,
@@ -737,7 +737,7 @@
     "tags": [
       "magical"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 64,
@@ -748,7 +748,7 @@
       "classic",
       "english"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 65,
@@ -760,7 +760,7 @@
       "fiction",
       "classic"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 66,
@@ -772,7 +772,7 @@
       "magical",
       "crime"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 67,
@@ -783,7 +783,7 @@
       "love",
       "history"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 68,
@@ -795,7 +795,7 @@
       "english",
       "love"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 69,
@@ -807,7 +807,7 @@
       "fiction",
       "classic"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 70,
@@ -819,7 +819,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 71,
@@ -830,7 +830,7 @@
       "love",
       "fiction"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 72,
@@ -842,7 +842,7 @@
       "history",
       "classic"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 73,
@@ -854,7 +854,7 @@
       "classic",
       "magical"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 74,
@@ -866,7 +866,7 @@
       "fiction",
       "classic"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 75,
@@ -878,7 +878,7 @@
       "love",
       "french"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 76,
@@ -889,7 +889,7 @@
       "mystery",
       "english"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 77,
@@ -901,7 +901,7 @@
       "english",
       "french"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 78,
@@ -912,7 +912,7 @@
       "crime",
       "magical"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 79,
@@ -924,7 +924,7 @@
       "classic",
       "history"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 80,
@@ -936,7 +936,7 @@
       "love",
       "french"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 81,
@@ -948,7 +948,7 @@
       "fiction",
       "love"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 82,
@@ -960,7 +960,7 @@
       "classic",
       "mystery"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 83,
@@ -972,7 +972,7 @@
       "magical",
       "history"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 84,
@@ -983,7 +983,7 @@
       "magical",
       "fiction"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 85,
@@ -994,7 +994,7 @@
       "english",
       "fiction"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 86,
@@ -1006,7 +1006,7 @@
       "love",
       "fiction"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 87,
@@ -1018,7 +1018,7 @@
       "love",
       "french"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 88,
@@ -1030,7 +1030,7 @@
       "classic",
       "magical"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 89,
@@ -1041,7 +1041,7 @@
       "english",
       "mystery"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 90,
@@ -1052,7 +1052,7 @@
       "love",
       "history"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 91,
@@ -1063,7 +1063,7 @@
       "love",
       "crime"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 92,
@@ -1075,7 +1075,7 @@
       "love",
       "english"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 93,
@@ -1087,7 +1087,7 @@
       "american",
       "classic"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 94,
@@ -1099,7 +1099,7 @@
       "crime",
       "mystery"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 95,
@@ -1111,7 +1111,7 @@
       "fiction",
       "history"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 96,
@@ -1123,7 +1123,7 @@
       "mystery",
       "french"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 97,
@@ -1135,7 +1135,7 @@
       "fiction",
       "crime"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 98,
@@ -1147,7 +1147,7 @@
       "mystery",
       "fiction"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 99,
@@ -1158,7 +1158,7 @@
       "crime",
       "classic"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 100,
@@ -1170,7 +1170,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 101,
@@ -1182,7 +1182,7 @@
       "crime",
       "english"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 102,
@@ -1194,7 +1194,7 @@
       "american",
       "english"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 103,
@@ -1206,7 +1206,7 @@
       "french",
       "classic"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 104,
@@ -1218,7 +1218,7 @@
       "english",
       "crime"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 105,
@@ -1230,7 +1230,7 @@
       "magical",
       "english"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 106,
@@ -1242,7 +1242,7 @@
       "english",
       "french"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 107,
@@ -1254,7 +1254,7 @@
       "american",
       "crime"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 108,
@@ -1266,7 +1266,7 @@
       "mystery",
       "love"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 109,
@@ -1278,7 +1278,7 @@
       "classic",
       "history"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 110,
@@ -1290,7 +1290,7 @@
       "magical",
       "american"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 111,
@@ -1301,7 +1301,7 @@
       "crime",
       "love"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 112,
@@ -1313,7 +1313,7 @@
       "history",
       "american"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 113,
@@ -1324,7 +1324,7 @@
       "french",
       "fiction"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 114,
@@ -1336,7 +1336,7 @@
       "classic",
       "love"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 115,
@@ -1348,7 +1348,7 @@
       "fiction",
       "history"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 116,
@@ -1360,7 +1360,7 @@
       "crime",
       "american"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 117,
@@ -1372,7 +1372,7 @@
       "mystery",
       "american"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 118,
@@ -1384,7 +1384,7 @@
       "magical",
       "love"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 119,
@@ -1396,7 +1396,7 @@
       "magical",
       "english"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 120,
@@ -1408,7 +1408,7 @@
       "history",
       "mystery"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 121,
@@ -1420,7 +1420,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 2
+    "views": 2
   },
   {
     "postId": 122,
@@ -1432,7 +1432,7 @@
       "english",
       "crime"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 123,
@@ -1443,7 +1443,7 @@
       "mystery",
       "classic"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 124,
@@ -1454,7 +1454,7 @@
       "english",
       "mystery"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 125,
@@ -1465,7 +1465,7 @@
       "fiction",
       "classic"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 126,
@@ -1477,7 +1477,7 @@
       "classic",
       "mystery"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 127,
@@ -1488,7 +1488,7 @@
       "english",
       "american"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 128,
@@ -1500,7 +1500,7 @@
       "love",
       "english"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 129,
@@ -1512,7 +1512,7 @@
       "love",
       "magical"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 130,
@@ -1524,7 +1524,7 @@
       "crime",
       "american"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 131,
@@ -1535,7 +1535,7 @@
       "crime",
       "english"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 132,
@@ -1546,7 +1546,7 @@
       "french",
       "american"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 133,
@@ -1558,7 +1558,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 134,
@@ -1569,7 +1569,7 @@
       "mystery",
       "english"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 135,
@@ -1580,7 +1580,7 @@
       "english",
       "classic"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 136,
@@ -1592,7 +1592,7 @@
       "french",
       "mystery"
     ],
-    "mostViewed": 0
+    "views": 0
   },
   {
     "postId": 137,
@@ -1604,7 +1604,7 @@
       "history",
       "crime"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 138,
@@ -1616,7 +1616,7 @@
       "history",
       "classic"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 139,
@@ -1628,7 +1628,7 @@
       "love",
       "american"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 140,
@@ -1640,7 +1640,7 @@
       "magical",
       "french"
     ],
-    "mostViewed": 5
+    "views": 5
   },
   {
     "postId": 141,
@@ -1651,7 +1651,7 @@
       "love",
       "english"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 142,
@@ -1663,7 +1663,7 @@
       "crime",
       "magical"
     ],
-    "mostViewed": 4
+    "views": 4
   },
   {
     "postId": 143,
@@ -1675,7 +1675,7 @@
       "american",
       "history"
     ],
-    "mostViewed": 6
+    "views": 6
   },
   {
     "postId": 144,
@@ -1687,7 +1687,7 @@
       "history",
       "fiction"
     ],
-    "mostViewed": 3
+    "views": 3
   },
   {
     "postId": 145,
@@ -1699,7 +1699,7 @@
       "magical",
       "classic"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 146,
@@ -1711,7 +1711,7 @@
       "history",
       "english"
     ],
-    "mostViewed": 9
+    "views": 9
   },
   {
     "postId": 147,
@@ -1723,7 +1723,7 @@
       "classic",
       "history"
     ],
-    "mostViewed": 7
+    "views": 7
   },
   {
     "postId": 148,
@@ -1735,7 +1735,7 @@
       "classic",
       "love"
     ],
-    "mostViewed": 8
+    "views": 8
   },
   {
     "postId": 149,
@@ -1747,7 +1747,7 @@
       "american",
       "classic"
     ],
-    "mostViewed": 1
+    "views": 1
   },
   {
     "postId": 150,
@@ -1759,6 +1759,6 @@
       "mystery",
       "english"
     ],
-    "mostViewed": 7
+    "views": 70
   }
 ]

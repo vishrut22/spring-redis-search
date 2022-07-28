@@ -1,16 +1,14 @@
 package com.dcb.redissearch.service;
 
-import com.dcb.redissearch.document.domain.Page;
+import com.dcb.redissearch.model.CategoryStats;
+import com.dcb.redissearch.model.Page;
 import com.dcb.redissearch.document.domain.Post;
 import com.dcb.redissearch.document.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import redis.clients.jedis.UnifiedJedis;
 
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 @Service
 public class PostServiceImpl {
@@ -25,8 +23,7 @@ public class PostServiceImpl {
         return postRepository.search(content,tags,page);
     }
 
-    public Map<String,String> aggregate() {
-
-        return null;
+    public List<CategoryStats> getCategoryWiseTotalPost() {
+        return postRepository.getCategoryWiseTotalPost();
     }
 }
