@@ -1,52 +1,23 @@
-# spring-redis-search
-
-Installing Redis Stack : docker pull redis/redis-stack
-
-https://redis.com/blog/introducing-redis-om-spring/
-
-redis-cli MONITOR
-
-https://redis.io/docs/stack/get-started/tutorials/stack-spring/
-
-## FT.SEARCH
-### FT._LIST
-### FT.CREATE "PostIdx" "ON" "JSON" "PREFIX" "1" "test" "SCHEMA" "$.content" "AS" "content" "TEXT" "SORTABLE" "$.tags[*]" "AS" "tags" "TAG" "SEPARATOR" "," "$.mostViewed" "AS" "mostViewed" "NUMERIC" "$.dateCreated" "AS" "dateCreated" "NUMERIC"
-
-## Index name
-## Scehma
-## Sortable
-## tags
-## JSON.SET myDoc $ '{"title": "foo", "content": "bar"}'
-
-## https://redis.com/blog/getting-started-with-redisearch-2-0/?_ga=2.175240352.321931497.1658454596-366174195.1658283338
-## INDEX CREATION ON REDISHASH
-## FT.CREATE idx:movie ON hash PREFIX 1 "movie:" SCHEMA title TEXT SORTABLE release_year NUMERIC SORTABLE rating NUMERIC SORTABLE genre TAG SORTABLE
-
-## "FT.SEARCH" "com.dcb.redissearch.document.domain.PostIdx" "(( @content:redi) @tags:{json})"
-
-## https://redis.io/docs/stack/search/
-
-### https://github.com/redis/redis-om-spring
-
-### https://developer.redis.com/howtos/moviesdatabase/create/
-### https://redis.io/docs/stack/get-started/tutorials/stack-spring/
-
-### FT.AGGREGATE "post-idx" "*" "GROUPBY" "1" "@tags" "REDUCE" "COUNT" "0" "AS" "NO_OF_POST" "sortby" "2" "@NO_OF_POST" "DESC"
-### FT.CREATE" "com.dcb.redissearch.document.domain.PostIdx" "ON" "JSON" "PREFIX" "1" "test" "SCHEMA" "$.title" "AS" "title" "TEXT" "SORTABLE" "$.content" "AS" "content" "TEXT" "$.tags[*]" "AS" "tags" "TAG" "SEPARATOR" "," "$.mostViewed" "AS" "mostViewed" "NUMERIC"
-
-### FT.AGGREGATE "post-idx" "*" "GROUPBY" "1" "$tags" "REDUCE" "COUNT" "0" "AS" "NO_OF_POST"
-####  "FT.AGGREGATE" "post-idx" "*" "GROUPBY" "1" "$tags" "REDUCE" "COUNT" "0" "AS" "NO_OF_POST" "REDUCE" "AVG" "1" "@views" "AS" "AVERAGE_VIEWS"
-### https://redis.io/commands/ft.sugadd/
-### https://redis.io/commands/ft.sugget/
-### https://redis.io/commands/ft.aggregate/
-
-
-
 # Redis search using Spring Boot and Jedis
 
 ## Installing Redisearch and RedisJson
 
 docker pull redis/redis-stack
+
+Start redis and then in cli run : redis-cli monitor - this will help to watch what queries are executed.
+
+## Topics covered 
+Secondary indexing
+
+Multi-field queries
+
+Aggregation
+
+Full-text indexing of multiple fields in a document
+
+Stemming-based query expansion
+
+Auto-complete suggestions
 
 ## Commands :
 ### FT.create -
@@ -66,6 +37,64 @@ This command has capablity to search through index.It provides several capablity
 Search can happen either on Set or Json.
 
 Example of search command : "FT.SEARCH" "post-idx" "@content:tha @tags:{a}" "LIMIT" "0" "20"
-In this example we are passing filter of content and 
+
+
+In this example we are passing filter of content contains some word. This word gets for search and do stemming. Stemming mean searching similar word like if we pass loving , it could find love, loving , loved.
+Then we did tag searching where it does actual tagging search.. You can consider filtering using category.
+
+We also passed Limit , which helps to limit the data , by default limit is set to 10 which can be change by passing in query.
+
+https://redis.io/commands/ft.search/
+
+### FT.INFO -
+This command will help to get the index information , what it is and what are attributes which are included.
+
+### FT.AGGREGATE -
+As the name suggest it helps to do aggregation functions like we do in sql. For example group by some field and do aggregation operations.
+
+This query helps to run the reporting queries where we want to gather stats.
+
+Example of command : FT.AGGREGATE "post-idx" "*" "GROUPBY" "1" "$tags" "REDUCE" "COUNT" "0" "AS" "NO_OF_POST" "REDUCE" "AVG" "1" "@views" "AS" "AVERAGE_VIEWS"
+
+In this command we passed group by tags and then we have given multiple reducer. Reducers contains aggregation function like count,sum, avg.
+
+In addition to this we can also pass filters in the command to aggregate on filtered data.
+
+https://redis.io/commands/ft.aggregate/
+
+### Other important commands
+FT.DROPIDX - Dropping index
+FT.SUGADD - Used to get suggestion added to dictionary
+FT.SUGGET - Used to search suggestion in dictionary
+https://redis.io/commands/ft.sugadd/
+https://redis.io/commands/ft.sugget/
+
+It is mainly used for autocomplete search.
+
+## Running and Testing code :
+Main Class : RedisSearchApplication.java , run as spring boot application
+
+Below are two endpoints which can be tested :
+
+http://localhost:8080/filter/?search=love - Searching based on search keyword . It also supports page and tag as query parameter.
+
+http://localhost:8080/categoryWiseStats - Helps to get category wis statastics 
+
+
+
+## Library used
+
+To perform this operation we used Jedis library. Jedis client has support of both RediSearch and RediJson.
+
+On starting of the server it will load data , create index in the redis.
+
+Configure application properties with host and port of the redis.
+
+
+
+##More Info
+https://developer.redis.com/howtos/moviesdatabase/create/ 
+
+Good Video : https://www.youtube.com/watch?v=krmY1547b3A 
 
 

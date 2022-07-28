@@ -45,7 +45,12 @@ public class RedisSearchApplication {
 	CommandLineRunner loadTestData() {
 		return args -> {
 			postRepository.deleteAll();
-			unifiedJedis.ftDropIndex("post-idx");
+			try {
+				unifiedJedis.ftDropIndex("post-idx");
+			} catch (Exception e){
+				System.out.println("Index might no exists.");
+			}
+
 
 			String data = new String(resourceFile.getInputStream().readAllBytes());
 			ObjectMapper objectMapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);

@@ -19,11 +19,6 @@ public class SearchController {
     @Autowired
     private PostServiceImpl postService;
 
-    @GetMapping("/search")
-    public List<Post> search(@RequestParam(name="search") String search) {
-        return postService.search(search);
-    }
-
     @GetMapping("/filter")
     public Page filter(@RequestParam(name="search" , required = false) String search ,
                        @RequestParam(name="tags" , required = false) Set<String> tags,

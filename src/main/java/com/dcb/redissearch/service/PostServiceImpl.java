@@ -15,9 +15,6 @@ public class PostServiceImpl {
 
     @Autowired
     private PostRepository postRepository;
-    public List<Post> search(String param) {
-        return null;
-    }
 
     public Page filter(String content, Set<String> tags, int page) {
         return postRepository.search(content,tags,page);
